@@ -1,4 +1,4 @@
-# ACS Demographics by ZIP Code — 14-Year Sample Data + Notebook
+# ACS Demographics by ZIP Code — 14-Year Sample Data + Notebooks
 
 Fourteen years (2011–2024) of US Census **American Community Survey 5-Year
 Estimates**, queryable per ZIP code through the [ZIP Codes API](https://api.zip-codes.com/docs).
@@ -7,6 +7,10 @@ This repo contains:
 - **[`acs_shifts_by_zip.ipynb`](acs_shifts_by_zip.ipynb)** — pull a 14-year demographic
   time series for any US ZIP in ~10 lines of Python (runs as-is with the public demo
   key, no signup)
+- **[`radius_spatial_acs.ipynb`](radius_spatial_acs.ipynb)** — coverage-weighted demographics
+  inside a radius: `/radius` spatial mode intersects ZIP boundary polygons and weights ACS
+  aggregates by each ZIP's `pct_inside` (population within 10 mi of a point, 2011 vs 2024),
+  no GIS software required
 - **[`data/nevada_acs_by_zip_2011_2024.csv`](data/nevada_acs_by_zip_2011_2024.csv)** —
   a complete worked sample: every Nevada ZCTA × every year × ten headline indicators,
   with margins of error (2,474 rows)
