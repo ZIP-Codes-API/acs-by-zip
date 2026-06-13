@@ -75,7 +75,7 @@ no credit card — and replace `KEY`.
   US address validation with ZIP+4, congressional / state-legislative / school
   district lookups
 - Researchers, journalists, students, and nonprofits: extended credit grants are
-  available in exchange for a data acknowledgement — email <info@zip-codes.com>
+  available in exchange for a data acknowledgement — email <jharris@zip-codes.com>
 
 ## Source and license
 
@@ -86,4 +86,4 @@ Estimates** (public domain). The sample CSV is released under
 Suggested acknowledgement:
 
 > Demographic data: US Census Bureau ACS 5-Year Estimates, accessed via ZIP Codes API
-> (Zip-Codes.com), https://api.zip-codes.com
+> (Zip-Codes.com), https://www.zip-codes.com/api/
