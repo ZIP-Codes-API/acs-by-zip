@@ -1,0 +1,17 @@
+CC0 1.0 Universal (CC0 1.0) — Public Domain Dedication
+
+The dataset files in this directory are dedicated to the public domain under
+Creative Commons CC0 1.0. To the extent possible under law, Zip-Codes.com has
+waived all copyright and related or neighboring rights to these dataset files.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The underlying source data is the U.S. Census Bureau American Community Survey
+(ACS) 5-Year Estimates, which is itself in the public domain as a work of the
+U.S. federal government. This dedication covers the compiled, reshaped CSV
+representation in this directory.
+
+Suggested (not required) acknowledgement:
+
+  Demographic data: US Census Bureau ACS 5-Year Estimates, accessed via
+  ZIP Codes API (Zip-Codes.com), https://api.zip-codes.com
