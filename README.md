@@ -73,6 +73,9 @@ no credit card — and replace `KEY`.
 
 ## About the API
 
+- **Python client:** `pip install zip-codes-api` — the notebooks above use raw `requests`
+  for clarity, but the [official client](https://github.com/ZIP-Codes-API/zip-codes-api-python)
+  has `acs_timeseries()` and `radius_dataframe()` helpers that return pandas DataFrames directly.
 - Docs: <https://api.zip-codes.com/docs> · OpenAPI: <https://api.zip-codes.com/v2/openapi.json>
   · LLM-ready reference: <https://api.zip-codes.com/llms-full.txt>
 - Also covers: Canadian FSA/postal codes at parity, radius search (cross-border),
